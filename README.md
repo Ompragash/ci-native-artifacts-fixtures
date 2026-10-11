@@ -10,4 +10,7 @@ This repository provides a stable matrix of files for testing Harness CI native 
 - Paths and filenames containing spaces
 - A complete multi-page JaCoCo HTML coverage report
 
-The JaCoCo report under `reports/jacoco/` is the `org.jacoco.core` coverage sample published at [`jacoco.org/jacoco/trunk/coverage/org.jacoco.core/`](https://www.jacoco.org/jacoco/trunk/coverage/org.jacoco.core/). Its original directory layout is preserved for preview, styling, and relative-link navigation testing.
+The JaCoCo report is the `org.jacoco.core` coverage sample published at [`jacoco.org/jacoco/trunk/coverage/org.jacoco.core/`](https://www.jacoco.org/jacoco/trunk/coverage/org.jacoco.core/).
+
+- `reference/jacoco-official/` preserves the downloaded report exactly.
+- `reports/jacoco/` is the upload fixture. HAR does not currently accept `$` in artifact paths, so the 49 inner-class filenames use `~` and their internal links are rewritten accordingly. The report content, layout, assets, and navigation are otherwise unchanged.
