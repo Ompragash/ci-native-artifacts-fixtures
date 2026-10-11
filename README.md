@@ -10,5 +10,4 @@ This repository provides a stable matrix of files for testing Harness CI native 
 - Paths and filenames containing spaces
 - A complete multi-page JaCoCo HTML coverage report
 
-The JaCoCo report under `reports/jacoco/` is copied from the generated report committed in [`nicokuijpers/SolarSystemSimulator`](https://github.com/nicokuijpers/SolarSystemSimulator/tree/main/target/site/jacoco) for preview and relative-link testing.
-
+The JaCoCo report under `reports/jacoco/` is the `org.jacoco.core` coverage sample published at [`jacoco.org/jacoco/trunk/coverage/org.jacoco.core/`](https://www.jacoco.org/jacoco/trunk/coverage/org.jacoco.core/). Its original directory layout is preserved for preview, styling, and relative-link navigation testing.
