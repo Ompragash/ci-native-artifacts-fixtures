@@ -1,0 +1,4 @@
+artifact,type,preview
+index.html,html,true
+native.bin,binary,false
+
